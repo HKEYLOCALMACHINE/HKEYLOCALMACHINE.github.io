@@ -1,0 +1,66 @@
+body, html {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+html {
+    background-image: radial-gradient(circle, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+}
+
+#gifContainer {
+    text-align: center;
+    position: absolute;
+}
+.hidden {
+    display: none;
+}
+
+.nabla-arrow{
+  text-decoration: none;
+  font-family: "Nabla", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-size: 60px;
+  font-style: normal;
+  font-variation-settings:
+    "EDPT" 100,
+    "EHLT" 12;
+}
+
+#prevBtn {
+    position: absolute;
+    left: 20%;
+    bottom: 40%;
+    transform: translateY(-50%);
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+    background: none;
+}
+
+#nextBtn {
+    position: absolute;
+    right: 20%;
+    bottom: 40%;
+    transform: translateY(-50%);
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+    background: none;
+}
+
+#prevBtn:hover, #nextBtn:hover {
+    transform: scale(1.2);
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+}
+
+
